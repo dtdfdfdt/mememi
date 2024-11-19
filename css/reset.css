@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+html,body,header,section,footer,nav,div,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,span,img,a,p,video,input,hr,form{margin:0; padding:0;}
+header,section,footer,div{box-sizing:border-box;}
+li{list-style:none;}
+a{text-decoration:none; color:#000;}
+.hidden{display:none;}
+hr,button,input{border:none;}
+input{outline:none;}
+span{display:block;}
+::-webkit-scrollbar{width:8px;}
+::-webkit-scrollbar-thumb{background:#555; border-radius:5px;}
+
+@font-face{font-family: FuturaStd-Book; src:url('../font/FuturaStd-Book.woff');}
+body{font-family: FuturaStd-Book;}
